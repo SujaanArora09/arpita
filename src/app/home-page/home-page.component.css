@@ -1,0 +1,88 @@
+/* home.component.css */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7fa;
+    padding: 20px;
+  }
+  
+  .home-content {
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .login-prompt, .signup-prompt {
+    margin-top: 20px;
+  }
+  
+  .login-button, .signup-button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  .login-button:hover, .signup-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .features {
+    margin-top: 30px;
+  }
+  
+  .features h2 {
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  .features ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .features li {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    margin-top: 40px;
+  }
+  
+  .footer-links {
+    font-size: 1em;
+    color: #888;
+  }
+  
+  .footer-links a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
